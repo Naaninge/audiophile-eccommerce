@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | zx9 Speakers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+</head>
+
+<body>
+   <!-- Navbar -->
+    <nav class="page-nav">
+      <div class="nav-logo-menu">
+        <button class="menu-btn">
+          <img
+            src="./assets/shared/tablet/icon-hamburger.svg"
+            alt="menu-icon"
+          />
+        </button>
+        <a href="index.html" class="logo"
+          ><img src="./assets/shared/desktop/logo.svg" alt="logo"
+        /></a>
+      </div>
+      <ul class="nav-links">
+        <li class="nav-link"><a href="index.html"> Home</a></li>
+        <li class="nav-link"><a href="headphones.html"> Headphones</a></li>
+        <li class="nav-link"><a href="speakers.html"> Speakers</a></li>
+        <li class="nav-link"><a href="earphones.html"> Earphones</a></li>
+      </ul>
+      <div class="nav-cart-section">
+        <img
+          class="nav-cart"
+          src="assets/shared/desktop/icon-cart.svg"
+          alt="cart"
+        />
+      </div>
+       <div class="side-menu hide">
+      <div class="nav-logo-menu">
+    <a href="index.html" class="logo"><img src="./assets/shared/desktop/logo.svg" alt="logo"></a>
+    <span class="remove-menu"><i class="bi bi-x-lg"></i></span>
+    </div>
+       <ul class="side-links">
+      <li class="nav-link"><i class="bi bi-house"></i><a href="index.html"> Home</a></li>
+      <li class="nav-link"><i class="bi bi-headphones"></i><a href="headphones.html"> Headphones</a></li>
+        <li class="nav-link"><i class="bi bi-speaker"></i><a href="speakers.html"> Speakers</a></li>
+        <li class="nav-link"><i class="bi bi-earbuds"></i><a href="earphones.html"> Earphones</a></li>
+     
+    </ul>
+
+    </div>
+    </nav>
+
+    <main class="product-main">
+      <!-- go back -->
+      <div class="go-back-container">
+        <a href="javascript:history.back()" id="go-back">go back</a>
+      </div>
+
+      <!-- new product section -->
+      <article class="page-product" id="section-product">
+        <div class="page-product-img zx9-spk-img"></div>
+        <div class="page-product-info">
+          <h5>New product</h5>
+          <h2> ZX9 <br> Speaker</h2>
+          <p>
+            Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker 
+              system that offers truly wireless connectivity -- creating new possibilities for more 
+              pleasing and practical audio setups.
+          </p>
+          <h4 class="price">$ 4,500</h4>
+          <div class="add-to-cart">
+            <button class="btn add-minus-btn">
+              <span class="decrease">-</span>
+              <span class="amount">1</span>
+              <span class="increase">+</span>
+            </button>
+            <button class="btn btn-primary add" data-id="6">add to cart</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- features -->
+      <article class="features-section">
+        <section class="features">
+          <h2>features</h2>
+          <p>
+             Connect via Bluetooth or nearly any wired source. This speaker features optical, digital coaxial, 
+              USB Type-B, stereo RCA, and stereo XLR inputs, allowing you to have up to five wired source devices 
+              connected for easy switching. Improved bluetooth technology offers near lossless audio quality at 
+              up to 328ft (100m).
+            <br><br>
+            Discover clear, more natural sounding highs than the competition with ZX9’s signature planar diaphragm 
+            tweeter. Equally important is its powerful room-shaking bass courtesy of a 6.5” aluminum alloy bass 
+            unit. You’ll be able to enjoy equal sound quality whether in a large room or small den. Furthermore, you 
+            will experience new sensations from old songs since it can respond to even the subtle waveforms.
+          </p>
+        </section>
+        <section class="in-box">
+          <h2>In the box</h2>
+           <div>
+          <h4><span class="times">2x</span> Speaker unit</h4>
+          <h4><span class="times">2x</span> Speaker cloth panel</h4>
+          <h4><span class="times">1x</span>  user manual</h4>
+          <h4><span class="times">1x</span>  3.5mm 10m audio cable</h4>
+           <h4><span class="times">1x</span>  3.5mm 10m optical cable</h4>
+           </div>
+          
+        </section>
+      </article>
+
+      <!-- gallery -->
+      <div class="gallery">
+        <div class="left-gallery">
+          <div class="left-gallery-img1-zx9 gall-img"></div>
+          <div class="left-gallery-img2-zx9 gall-img"></div>
+        </div>
+        <div class="right-gallery-zx9 gall-img"></div>
+      </div>
+
+      <!-- you may also like section -->
+      <div>
+        <header class="also-like-header"><h2>you may also like</h2></header>
+         <article class="also-like">
+       
+        <section class="also-section">
+          <div class="also-like-zx7 also-img"></div>
+          <div class="also-like-info">
+            <h2>XX99 Mark II</h2>
+            <button class="btn btn-primary"><a href="product-xx99-mark-two-headphones.html">see product</a></button>
+          </div>
+        </section>
+        <section class="also-section">
+          <div class="also-like-markI also-img"></div>
+          <div class="also-like-info">
+            <h2>XX99 Mark I</h2>
+            <button class="btn btn-primary"><a href="product-xx99-mark-one-headphones.html">see product</a></button>
+          </div>
+        </section>
+        <section class="also-section">
+          <div class="also-like-xx59 also-img"></div>
+          <div class="also-like-info">
+            <h2>xx59</h2>
+            <button class="btn btn-primary"><a href="product-xx59-headphones.html">see product</a></button>
+          </div>
+        </section>
+      </article>
+      </div>
+     
+
+      <!-- product list -->
+      <article class="product-list-home" id="page-list" >
+        <!-- headphones -->
+        <section>
+          <img
+            src="assets/shared/desktop/image-category-thumbnail-headphones.png"
+            alt="speakers"
+            class="thumbnail headphones-thumbnail"
+          />
+          <h4>Headphones</h4>
+          <a href="headphones.html" class="shop">
+            <span>Shop </span
+            ><img
+              src="assets/shared/desktop/icon-arrow-right.svg"
+              alt="right arrow"
+              class="right-arrow"
+          /></a>
+        </section>
+        <!-- speakers -->
+        <section>
+          <img
+            src="assets/shared/desktop/image-category-thumbnail-speakers.png"
+            alt="speaker"
+            class="thumbnail speakers-thumbnail"
+          />
+          <h4>Speakers</h4>
+          <a href="speakers.html" class="shop"
+            ><span>Shop </span>
+            <img
+              src="assets/shared/desktop/icon-arrow-right.svg"
+              alt="right arrow"
+              class="right-arrow"
+          /></a>
+        </section>
+        <!-- earphones -->
+        <section>
+          <img
+            src="assets/shared/desktop/image-category-thumbnail-earphones.png"
+            alt="earphones"
+            class="thumbnail earphones-thumbnail"
+          />
+          <h4>Earphones</h4>
+          <a href="earphones.html" class="shop"
+            ><span>Shop </span
+            ><img
+              src="assets/shared/desktop/icon-arrow-right.svg"
+              alt="right arrow"
+              class="right-arrow"
+          /></a>
+        </section>
+      </article>
+
+      <!-- Best audio gear -->
+      <article class="page-product reverse-div" id="audio-gear">
+        <div class="page-product-info reverse-text">
+          <h2>Bringing you the <span class="best">best</span> audio gear</h2>
+          <p>
+            Located at the heart of New York City, Audiophile is the premier
+            store for high end headphones, earphones, speakers, and audio
+            accessories. We have a large showroom and luxury demonstration rooms
+            available for you to browse and experience a wide range of our
+            products. Stop by our store to meet some of the fantastic people who
+            make Audiophile the best place to buy your portable audio equipment.
+          </p>
+        </div>
+        <div class="audio-gear-img page-product-img reverse-img"></div>
+      </article>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-border"></div>
+      <div>
+        <a href="index.html" class="footer-logo"
+          ><img src="assets/shared/desktop/logo.svg" alt="logo"
+        /></a>
+
+        <p class="footer-info">
+          Audiophile is an all in one stop to fulfill your audio needs. We're a
+          small team of music lovers and sound specialists who are devoted to
+          helping you get the most out of personal audio. Come and visit our
+          demo facility - we’re open 7 days a week.
+        </p>
+        <!-- html & actual year -->
+        <p class="copyright">
+          Copyright <span class="year"></span>. All Rights Reserved
+        </p>
+      </div>
+      <div class="footer-left">
+        <ul class="footer-links">
+          <li class="footer-link"><a href="index.html"> Home</a></li>
+          <li class="footer-link"><a href="headphones.html"> Headphones</a></li>
+          <li class="footer-link"><a href="speakers.html"> Speakers</a></li>
+          <li class="footer-link"><a href="earphones.html"> Earphones</a></li>
+        </ul>
+
+        <!-- social links-->
+        <div class="social-links-footer">
+         <!-- facebook -->
+        <a href="https://www.facebook.com/" target="_blank">
+        
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" fill="#FFF" fill-rule="nonzero"/></svg>
+            
+        </a>
+        <!-- twitter -->
+       <a href="https://twitter.com/home"  target="_blank">
+        <svg width="24" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" fill="#FFF" fill-rule="nonzero"/></svg>
+        </a>
+
+        <!-- instagram -->
+        <a href="https://www.instagram.com/" target="_blank">
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="#FFF" fill-rule="nonzero"/></svg>
+        </a>
+
+         
+        </div>
+      </div>
+    </footer>
+  
+   <aside class="cart-menu hide">
+      <article class="cart-article">
+        <header>
+          <h3>cart <span class="cart-quantity">( 3 )</span></h3>
+          <p class="remove-all">Remove all</p>
+        </header>
+        <div class="cart-list">
+          
+          
+           
+    
+        </div>
+
+        <div class="cart-total-section">
+          <h4 class="total">total</h4>
+          <h5 class="cart-total"></h5>
+        </div>
+
+        <div class="checkout-section">
+          <button class="btn btn-primary checkout-button"><a href="checkout.html">checkout</a></button>
+        </div>
+      
+      </article>
+    </aside>
+
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="./js/addToCart.js"></script>
+</body>
+
+</html>
