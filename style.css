@@ -1013,7 +1013,7 @@ aside.order-section article.thank-you {
 
 /* ****************************for tablet view******************************** */
 
-@media screen and (min-width:769px) and  (max-width: 1180px) {
+@media screen and (min-width:768px) and  (max-width: 1180px) {
   .nav-links {
     display: none;
   }
@@ -1207,7 +1207,7 @@ aside.order-section article.thank-you {
 }
 
 /* *****************************for mobile portrait view ***************************************/
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 767px)  {
   .nav-links {
     display: none;
   }
